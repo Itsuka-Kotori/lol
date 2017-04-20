@@ -1,12 +1,5 @@
-(* Content-type: application/vnd.wolfram.mathematica *)
 
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
-
-(* CreatedBy='Mathematica 11.0' *)
-
-(*CacheID: 234*)
-(* Internal cache information:
+Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
@@ -14,9 +7,8 @@ NotebookDataLength[      2408,         96]
 NotebookOptionsPosition[      1842,         71]
 NotebookOutlinePosition[      2191,         86]
 CellTagsIndexPosition[      2148,         83]
-WindowFrame->Normal*)
+WindowFrame->Normal
 
-(* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[
  RowBox[{
@@ -74,16 +66,14 @@ WindowMargins->{{Automatic, 326}, {-21, Automatic}},
 FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
 StyleDefinitions->"Default.nb"
 ]
-(* End of Notebook Content *)
 
-(* Internal cache information *)
-(*CellTagsOutline
+CellTagsOutline
 CellTagsIndex->{}
-*)
-(*CellTagsIndex
+
+CellTagsIndex
 CellTagsIndex->{}
-*)
-(*NotebookFileOutline
+
+NotebookFileOutline
 Notebook[{
 Cell[558, 20, 250, 6, 30, "Input"],
 Cell[CellGroupData[{
@@ -100,4 +90,3 @@ Cell[1752, 67, 74, 1, 63, "Output"]
 }, Open  ]]
 }
 ]
-*)
