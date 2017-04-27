@@ -1,4 +1,4 @@
-OPTION NV_bindless_texture;
+
  PARAM c[16] = { program.local[0..15] };
 ATTRIB vertex_attrib[] = { vertex.attrib[0..1] };
 OUTPUT result_attrib[] = { result.attrib[0..2] };
