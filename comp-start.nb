@@ -1,7 +1,8 @@
- d[p_,c_, n_]:= D[p, {c, n}]
-f[x_]:= Sin[x^3]+ArcCos[x+Sqrt[Log[Abs[x^2]]]]*Cos[1/x]^3
-data={x^2+11, Sin[Log2[Cos[x]]^2], 14*x}
-d[f[data], x,1]
-i[p_,c_,a_,b_]:= NIntegrate[p, {c, a,b }]
-data2 = Sin[p]^2
-i[data2, p, 1, 5]
+data = {3 x^2 + 11, Sin[Cos[x]]}
+numdata = {-5, 0, 10.4, Pi}
+ni[p_, c_, a_, b_] := NIntegrate[p, {c, a, b}]
+d[p_, c_, n_] := D[p, {c, n}]
+f[x_] := Sin[x^3] + ArcCos[x + Sqrt[Log[Abs[x^2]]]]*Cos[1/x]^3
+p[p_, c_, a_, b_] := Plot[p, {c, a, b}]
+p3d[p_, c_, a_, b_, d_ , z_ , x_ ] := Plot3D[p, {c, a, b}, {d, z, x}]
+ra[x_, y_, z_] := ReplaceAll[x, y -> z]
