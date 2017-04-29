@@ -1,0 +1,7 @@
+In[133]:= d[p_,c_, n_]:= D[p, {c, n}]
+In[80]:= f[x_]:= Sin[x^3]+ArcCos[x+Sqrt[Log[Abs[x^2]]]]*Cos[1/x]^3
+In[109]:= data={x^2+11, Sin[Log2[Cos[x]]^2], 14*x}
+In[138]:= d[f[data], x,1]
+i[p_,c_,a_,b_]:=NIntegrate[p, {c, a,b }]
+data2 = Sin[p]^2
+In[129]:= i[data2, p, 1, 5]
