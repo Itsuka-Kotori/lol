@@ -299,7 +299,7 @@ KIL NE.x;
 ENDIF;
 MOV.F result_color0, R0;
 END
-                                                                                                                                                                                                                                                                                       €  !!NVgp5.0
+ 
 OPTION NV_bindless_texture;
 PRIMITIVE_IN LINES;
 PRIMITIVE_OUT TRIANGLE_STRIP;
