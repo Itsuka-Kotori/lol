@@ -34,7 +34,7 @@ MOV.F result.attrib[0].xyz, R2;
 ADD.F result.attrib[2].xyz, R0, c[13];
 MOV.F result.attrib[2].w, {1, 0, 0, 0}.x;
 END
-                                              {switch};                                                                                                                                                                                                                                       ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                                                                                         
+                                              {switch};
   !!NVfp5.0
 OPTION NV_gpu_program_fp64;
 OPTION NV_bindless_texture;
@@ -162,7 +162,7 @@ MOV.F result.attrib[0].xyz, R2;
 ADD.F result.attrib[2].xyz, R0, c[13];
 MOV.F result.attrib[2].w, {1, 0, 0, 0}.x;
 END
-                                              {switch};                                                                                                                                                                                                                                                                             ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                                                                                         
+                                              {switch};
   !!NVfp5.0
 OPTION NV_gpu_program_fp64;
 OPTION NV_bindless_texture;
@@ -261,7 +261,7 @@ OUTPUT result_attrib[] = { result.attrib[0..1] };
 MOV.F result.attrib[1], vertex.attrib[3];
 MOV.F result.attrib[0].xyz, vertex.attrib[0];
 END
-                                                                                                                                                  †   !!NVfp5.0
+                                                                            
 OPTION NV_bindless_texture;
  PARAM c[3] = { program.local[0..2] };
 ATTRIB fragment_attrib[] = { fragment.attrib[0..0] };
@@ -299,7 +299,7 @@ KIL NE.x;
 ENDIF;
 MOV.F result_color0, R0;
 END
-                                                                                                                                                    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                                                                                        €  !!NVgp5.0
+                                                                                                                                                                                                                                                                                       €  !!NVgp5.0
 OPTION NV_bindless_texture;
 PRIMITIVE_IN LINES;
 PRIMITIVE_OUT TRIANGLE_STRIP;
