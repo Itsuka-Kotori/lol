@@ -1,0 +1,4 @@
+f[x_] := Piecewise[{{x^2, x < -10}, {1/x, 
+    x >= -10 && x <= 0}, {100*Sin[x], 
+    x > 0 && Mod[Ceiling[x], 2] != 0}, {x^2, 
+    x > 0 && Mod[Ceiling[x], 2] == 0}}]
